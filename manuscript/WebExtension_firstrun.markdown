@@ -1,37 +1,29 @@
----
-title:  "Running WebExtension in Firefox"
-date:   2016-08-26 02:00:00
-description: Running extensions in development mode in Firefox
-categories: addons
-tags: [addons,firefox]
----
 # Running WebExtension in Firefox
 
 In this section we will be exploring more how to run an Firefox WebExtensions.
 
+I will be showing this demo with the help of the small extension I have written before, feel free to download it from github [1], you can clone whole repo [2].  I personally use web-ext [3]  tool for packing my extension, but for basic learning it is not mandatory.
 
-I will be showing this demo with the help of the small extension I have written before, feel free to download it from [github](https://github.com/iamVP7/MyExtensions/tree/master/tabopen/Firefox), you can clone whole [repo](https://github.com/iamVP7/MyExtensions/).  I personally use [web-ext](https://github.com/mozilla/web-ext) tool for packing my extension, but for basic learning it is not mandatory.
+## Step by Step procedure for running WebExtension
 
-
-## Step1: Go to the directory which has contents of Extension
+### Step1: Go to the directory which has contents of Extension
 
 In my case it will look like the below. The content showed below is the contents of Extension, which the link is shared above.
 
 ![Directory Image](images/content_directory.png)
 
-## Step 2: We have to compress all the contents into Zip
+### Step 2: We have to compress all the contents into Zip
 
 - Select all the folders and files
 - Make it to a zip, anyname.zip
 
 ![Directory Image](images/tabopenzip.png)
 
-
-## Step 3: Open about:addons
+### Step 3: Open about:addons
 
 ![Directory Image](images/about-addon.png)
 
-## Step 4: Install Addons
+### Step 4: Install Addons
 
 - Click on Tools for all add-ons (the icon - which is like Setting icon )
 - Select Install Add-on From File ..
@@ -47,7 +39,7 @@ In my case it will look like the below. The content showed below is the contents
 - In that pop-up click Install button
 - Now your Extension is installed.
 
-## Step 5: Run the Extension
+### Step 5: Run the Extension
 
 For most of Extensions you will get the icon in the tool bar itself. So for this a page like icon will be coming at toolbar, if every code is run properly. Click on that icon.
 
@@ -57,5 +49,10 @@ So on Selecting any one of the three websites, it will open a new tab and open t
 
 In future, based on user usage we can show top 3 websites there. 
 
-Follow for more amazing extensions.
+Follow for amazing journey of Building WebExtensions.
 
+## References 
+
+- [1] https://github.com/iamVP7/MyExtensions/tree/master/tabopen/Firefox
+- [2] https://github.com/iamVP7/MyExtensions/
+- [3] https://github.com/mozilla/web-ext

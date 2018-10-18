@@ -1,0 +1,2 @@
+_generated/pandoc/WebExtension_GetStarted.md
+_generated/pandoc/WebExtension_firstrun.markdown
