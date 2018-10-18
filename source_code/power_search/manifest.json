@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+"name" : "Power Search Engine",
+"description" : "Search the selected text in other search engines in your machine",
+  "version": "1.0",
+"icons": {
+    "96": "icons/icon-96.png"
+  },
+  "permissions" : [
+	"search","contextMenus"
+	],
+"background": {
+    "scripts": ["background.js"]
+  }
+}
+
+

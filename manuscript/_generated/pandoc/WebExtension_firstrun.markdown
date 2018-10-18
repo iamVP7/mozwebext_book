@@ -67,3 +67,4 @@ Follow for amazing journey of Building WebExtensions.
 - [1] https://github.com/iamVP7/MyExtensions/tree/master/tabopen/Firefox
 - [2] https://github.com/iamVP7/MyExtensions/
 - [3] https://github.com/mozilla/web-ext
+\pagebreak

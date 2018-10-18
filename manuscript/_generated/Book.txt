@@ -1,0 +1,4 @@
+_generated/pandoc/WebExtension_GetStarted.md
+_generated/pandoc/WebExtension_firstrun.markdown
+_generated/pandoc/Motivational_tab.md
+_generated/pandoc/WebExtension_search.md

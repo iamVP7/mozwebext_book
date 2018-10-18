@@ -35,7 +35,6 @@ end
 # pandoc post-processing
 chapter_filenames.each do |chapter_filename|
   File.open(File.join(pandoc_dir, chapter_filename), 'a') do |f|
-    f.puts "\nEND OF PANDOC CHAPTER"
     f.puts "\n\\pagebreak"
   end
 end
