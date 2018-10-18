@@ -19,11 +19,13 @@ In my case it will look like the below. The content showed below is the contents
 
 ![Directory Image](images/tabopenzip.png)
 
-### Step 3: Open about:addons
-
+### Step 3: Open about:addons or Ctrl+Shift+A
+ 
 ![Directory Image](images/about-addon.png)
 
-### Step 4: Install Addons
+### Step 4: Install Addons or Debug Addons
+
+#### Install Addons
 
 - Click on Tools for all add-ons (the icon - which is like Setting icon )
 - Select Install Add-on From File ..
@@ -38,6 +40,15 @@ In my case it will look like the below. The content showed below is the contents
 
 - In that pop-up click Install button
 - Now your Extension is installed.
+
+#### Debug Addons
+
+During testing it is enough to go with Debug Add-ons option. Only drawback will be, if we close the Firefox then the Add-on which we installed during our development phase will be uninstalled. Follow steps below.
+
+- Click on Tools for all add-ons (the icon - which is like Setting icon )
+- Debug Add-on.
+- Goto the folder where you source code is present.
+- Select the manifest.json file, so the Add-on is installed temporarily.
 
 ### Step 5: Run the Extension
 

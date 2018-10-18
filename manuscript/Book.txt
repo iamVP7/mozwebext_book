@@ -1,2 +1,3 @@
 WebExtension_GetStarted.md
 WebExtension_firstrun.markdown
+Motivational_tab.md
