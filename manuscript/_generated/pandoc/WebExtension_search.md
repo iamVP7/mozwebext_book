@@ -14,7 +14,6 @@ When we are surfing a lot there are lot of cases where we need to search on diff
 
 I understand you might have sipped your coffee more than twice here.
 
-
 *Solution*
 
 So our good solution will be to use the mouse. The follow with mouse as follows; 

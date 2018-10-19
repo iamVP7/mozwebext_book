@@ -14,7 +14,6 @@ When we are surfing a lot there are lot of cases where we need to search on diff
 
 I understand you might have sipped your coffee more than twice here.
 
-
 *Solution*
 
 So our good solution will be to use the mouse. The follow with mouse as follows; 
@@ -250,7 +249,7 @@ Your simple task here to find out the various search engines (around 15-20). Mak
 For Example: 
 In Wikipedia if you are search **hello world** you will be getting the URL like below
 
-Wiki URL: https://en.wikipedia.org/w/index.php?search=**hello+world**
+Wiki URL: https://en.wikipedia.org/w/index.php?search=**hello+world**&title=Special%3ASearch&go=Go
 
 In this only the highlighted part will be changing everytime. Likewise find for other search engines also and create your extension. You may have to decide what title you have to give, id you have to give.
 
