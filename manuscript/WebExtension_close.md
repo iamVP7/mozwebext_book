@@ -36,7 +36,7 @@ In this execrise we will be learning the following list of API
 
 First we will take a look at the API we will be using in this Execrise.
 
-### Getting started with Basics of API
+### Getting started with Basics of API of Social Tab Closer
 
 #### Starting the Closing Operation
 
@@ -70,7 +70,7 @@ var removing = browser.tabs.remove([tab_id1, tab_id10, tab_id15]);
 
 So now our task is to just write all the above code in manifest.json and background script file. Mos to fhte things are coverd.
 
-### Writing manifest.json
+#### Writing manifest.json
 
 ```javascript
 {
@@ -97,7 +97,7 @@ So now our task is to just write all the above code in manifest.json and backgro
 
 Here changes we made will be getting the tabs permission. And also we have to define the brower_action icon alone. We wont make any other drastic changes compared to previous manifest.json.
 
-### Writing our background.js
+#### Writing our background.js
 
 We will be splitting the background javascript into parts.
 
@@ -143,7 +143,7 @@ Our Next step is to get the tab id with the tabs we have fetched. We are first i
 
 We are going to almost use same set of API which we used for our social tab close. Here we will additionaly have a very small change in manifest.json.
 
-### Getting started with Basics of API
+### Getting started with Basics of API of All Tab Closer
 
 #### Adding popup html page
 
