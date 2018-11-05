@@ -1,4 +1,4 @@
-# Building our Water Notifier Extension
+# Experiment 5: Building our Water Notifier Extension
 
 Humans depends on a lot on notification system. The simplest thing and more like a hello world program for WebExtension is building Notification system. I got started with sending simple notification.
 
@@ -203,6 +203,6 @@ Optional: It will be great if you can share your code or blog about this learnin
 
 ## References
 
-[1] https://mzl.la/2zBlyuT
-[2] https://mzl.la/2zrMn4r
-[3] https://mzl.la/2zqzxDE
+- [1] https://mzl.la/2zBlyuT
+- [2] https://mzl.la/2zrMn4r
+- [3] https://mzl.la/2zqzxDE

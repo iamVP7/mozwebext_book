@@ -1,4 +1,4 @@
-# Building our Power Search Add-on
+# Experiment 2: Building our Power Search Add-on
 
 We got to many browser actions can be used by developers via WebExtension API(Application Program Interface), we also built our first WebExtension with which we can get motivational images whenever we open a new tab.
 
@@ -258,5 +258,6 @@ You may also have to do some little parsing.
 Optional: It will be great if you can share your code or blog about this learning in twitter. Our Mozilla Webextension twitter handle is (@MozWebExt) and make sure you use hashtag #WebExtLearn when you are tweeting about this learning. 
 
 ## References
+
 - [1] https://mzl.la/2q13lSO
 - [2] https://mzl.la/2J3k7tc

@@ -1,4 +1,4 @@
-# Building our Tabs Closer
+# Experiment 3: Building our Tabs Closer
 
 We have seen previosly how to search using different search engine available in our browsers. It should interesting and easy one right ? Hope the execrise you tried might have left to finding the URL of different search engines and what are all the extra information they are sending as request params.
 

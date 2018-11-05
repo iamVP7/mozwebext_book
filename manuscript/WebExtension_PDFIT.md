@@ -1,4 +1,4 @@
-# Building our PDF WebPage Extension
+# Experiment 4: Building our PDF WebPage Extension
 
 So we were learning about fetching the tabs Closing them one by one. There are times in our life where we need to do something later. Yes we need to do lot of things later. In this chapter we will be learning how to save so we can check it later. We learnt more about browserAction icon previously now we will be learning opposite to it (not exactly just for fun) PageAction icon, we are seeing it in lot of pages  think of closing tab button, bookmark button, what they are doing ? what is their scope ?
 
