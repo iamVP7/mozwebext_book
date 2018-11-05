@@ -217,7 +217,9 @@ To learn More about below list of API, visit MDN link given below.
 
 Your simple task is to create a small social share button. So when the user clicks on the pageAction icon he should have options to share it to various social media.
 
-Optional: It will be great if you can share your code or blog about this learning in twitter. Our Mozilla Webextension twitter handle is (@MozWebExt) and make sure you use hashtag #WebExtLearn when you are tweeting about this learning. 
+Optional: It will be great if you can share your code or blog about this learning in twitter. Our Mozilla Webextension twitter handle is (@MozWebExt) and make sure you use hashtag #WebExtLearn when you are tweeting about this learning.
+
+## References
 
 - [1] https://mzl.la/2OngPCk
 - [2] https://mzl.la/2JDMsqq
