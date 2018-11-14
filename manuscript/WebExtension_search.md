@@ -1,6 +1,6 @@
 # Experiment 2: Building our Power Search Add-on
 
-We got too many browser actions can be used by developers via WebExtension API(Application Program Interface), we also built our first WebExtension with which we can get motivational images whenever we open a new tab.
+We got too many browser actions that can be used by developers via WebExtension API(Application Program Interface), we also built our first WebExtension with which we can get motivational images whenever we open a new tab.
 
 ## Problem statement and Solution
 

@@ -1,3 +1,4 @@
+frontmatter.md
 WebExtension_GetStarted.md
 WebExtension_firstrun.markdown
 Motivational_tab.md
@@ -7,3 +8,4 @@ WebExtension_PDFIT.md
 WebExtension_notifier.md
 WebExtension_youtube_commands.md
 WebExtension_sof_search.md
+Publishing_webextension.md
