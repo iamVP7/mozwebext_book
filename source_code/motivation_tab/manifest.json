@@ -1,9 +1,0 @@
-{
-"manifest_version": 2,
-"name" : "Motivation Tab",
-"description" : "Shows Random Quotes ",
-  "version": "1.0",
-  "chrome_url_overrides" : {
-    "newtab": "my-new-tab.html"
-  }
-}
