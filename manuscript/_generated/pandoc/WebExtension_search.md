@@ -1,4 +1,4 @@
-# Building our Power Search Add-on
+# Experiment 2: Building our Power Search Add-on
 
 We got to many browser actions can be used by developers via WebExtension API(Application Program Interface), we also built our first WebExtension with which we can get motivational images whenever we open a new tab.
 
@@ -111,7 +111,7 @@ In this case **query** which will have the word to be searched in mandatory, **e
 
 ## Assembling our Power Search Extension Parts
 
-Previously we learned about different parts for building our Power Search Extension. We have to create context menu using the search engines avaialble, get selectionText value and search it in the search engine we have.
+Previously we learned about different parts for building our Power Search Extension. We have to create context menu using the search engines available, get selectionText value and search it in the search engine we have.
 
 ### Writing manifest.json
 
@@ -127,7 +127,7 @@ As usual lets start with writing our manifest file. Here in this time we are add
     "96": "icons/icon-96.png"
   },
   "permissions" : [
-	"search","contextMenus"
+	  "search","contextMenus"
 	],
 "background": {
     "scripts": ["background.js"]
@@ -137,7 +137,7 @@ As usual lets start with writing our manifest file. Here in this time we are add
 
 #### icons
 
-icons is the JSONObject, which can be used to show the icon for particular extension. It is good pratice to have beautiful icons for our extension. The normal size we should include is 96px X 96px, 60px X 60px. 
+icons is the JSONObject, which can be used to show the icon for particular extension. It is good practice to have beautiful icons for our extension. The normal size we should include is 96px X 96px, 60px X 60px.
 
 #### permissions
 
@@ -157,12 +157,12 @@ In this experiment we are using only one background script namely background.js;
 createMenu();
 
 function createMenu() {
-// Get the list of Seach Engine
+// Get the list of search Engine
 browser.search.get().then(buildContextMenu);
 }
 ```
 
-So our First step we are going to do in the background is to fetch the serach engine and once we are done with fetching we are going to build the context menu.
+So our First step we are going to do in the background is to fetch the search engine and once we are done with fetching we are going to build the context menu.
 
 Whenever the script is loaded, the very first method  **createMenu()** is called.
 
@@ -256,6 +256,8 @@ In this only the highlighted part will be changing everytime. Likewise find for 
 You may also have to do some little parsing.
 
 Optional: It will be great if you can share your code or blog about this learning in twitter. Our Mozilla Webextension twitter handle is (@MozWebExt) and make sure you use hashtag #WebExtLearn when you are tweeting about this learning. 
+
+## References
 
 - [1] https://mzl.la/2q13lSO
 - [2] https://mzl.la/2J3k7tc

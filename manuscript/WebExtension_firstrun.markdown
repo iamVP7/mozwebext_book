@@ -1,14 +1,14 @@
 # Running WebExtension in Firefox
 
-In this section we will be exploring more how to run an Firefox WebExtensions.
+In this section, we will be exploring more how to run a Firefox WebExtensions.
 
-I will be showing this demo with the help of the small extension I have written before, feel free to download it from github [1], you can clone whole repo [2].  I personally use web-ext [3]  tool for packing my extension, but for basic learning it is not mandatory.
+I will be showing this demo with the help of the small extension I have written before, feel free to download it from GitHub [1], you can clone whole repo [2].  I personally use web-ext [3]  tool for packing my extension, but for basic learning, it is not mandatory.
 
 ## Step by Step procedure for running WebExtension
 
 ### Step 1: Go to the directory which has contents of Extension
 
-In my case it will look like the below. The content showed below is the contents of Extension, which the link is shared above.
+In my case, it will look like the below. The content showed below is the contents of Extension, which the link is shared above.
 
 ![Directory Image](images/content_directory.png)
 
@@ -43,7 +43,7 @@ In my case it will look like the below. The content showed below is the contents
 
 #### Debug Addons
 
-During testing it is enough to go with Debug Add-ons option. Only drawback will be, if we close the Firefox then the Add-on which we installed during our development phase will be uninstalled. Follow steps below.
+During testing, it is enough to go with Debug Add-ons option. The only drawback will be, if we close the Firefox then the Add-on which we installed during our development phase will be uninstalled. Follow the steps below.
 
 - Click on Tools for all add-ons (the icon - which is like Setting icon )
 - Debug Add-on.
@@ -52,15 +52,13 @@ During testing it is enough to go with Debug Add-ons option. Only drawback will 
 
 ### Step 5: Run the Extension
 
-For most of Extensions you will get the icon in the tool bar itself. So for this a page like icon will be coming at toolbar, if every code is run properly. Click on that icon.
+For most of the Extensions you will get the icon in the toolbar itself. So for this, a page like an icon will be coming at the toolbar, if every code is run properly. Click on that icon.
 
 ![Choose the Zip file](images/extension_popup.png)
 
-So on Selecting any one of the three websites, it will open a new tab and open the site. As of now it is in static mode.
+So on Selecting any one of the three websites, it will open a new tab and open the site. As of now, it is in static mode.
 
-In future, based on user usage we can show top 3 websites there. 
-
-Follow for amazing journey of Building WebExtensions.
+In future, based on user usage we can show the top 3 websites there.
 
 ## References 
 

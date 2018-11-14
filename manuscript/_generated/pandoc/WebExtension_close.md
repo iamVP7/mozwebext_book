@@ -1,4 +1,4 @@
-# Building our Tabs Closer
+# Experiment 3: Building our Tabs Closer
 
 We have seen previosly how to search using different search engine available in our browsers. It should interesting and easy one right ? Hope the execrise you tried might have left to finding the URL of different search engines and what are all the extra information they are sending as request params.
 
@@ -36,7 +36,7 @@ In this execrise we will be learning the following list of API
 
 First we will take a look at the API we will be using in this Execrise.
 
-### Getting started with Basics of API
+### Getting started with Basics of API of Social Tab Closer
 
 #### Starting the Closing Operation
 
@@ -143,7 +143,7 @@ Our Next step is to get the tab id with the tabs we have fetched. We are first i
 
 We are going to almost use same set of API which we used for our social tab close. Here we will additionaly have a very small change in manifest.json.
 
-### Getting started with Basics of API
+### Getting started with Basics of API of All Tab Closer
 
 #### Adding popup html page
 
@@ -308,7 +308,9 @@ Make sure to visit Mozilla Developer Network (MDN) to learn more about the above
 
 There are lot of things related to tabs API to be explored. We have as of now have used the title and showed the list of tabs. But sometimes Title alone wont be enough, we have an API to capture the current instance of the tab as image, use this API instead of title make sure to show the image and on image have two options one for reload and another for close. So based on the button clicks use Reload API or Remove API.
 
-Optional: It will be great if you can share your code or blog about this learning in twitter. Our Mozilla Webextension twitter handle is (@MozWebExt) and make sure you use hashtag #WebExtLearn when you are tweeting about this learning. 
+Optional: It will be great if you can share your code or blog about this learning in twitter. Our Mozilla Webextension twitter handle is (@MozWebExt) and make sure you use hashtag #WebExtLearn when you are tweeting about this learning.
+
+## References
 
 - [1] https://mzl.la/2QZ1PfB
 - [2] https://mzl.la/2PfiZYW

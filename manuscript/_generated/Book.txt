@@ -4,3 +4,6 @@ _generated/pandoc/Motivational_tab.md
 _generated/pandoc/WebExtension_search.md
 _generated/pandoc/WebExtension_close.md
 _generated/pandoc/WebExtension_PDFIT.md
+_generated/pandoc/WebExtension_notifier.md
+_generated/pandoc/WebExtension_youtube_commands.md
+_generated/pandoc/WebExtension_sof_search.md

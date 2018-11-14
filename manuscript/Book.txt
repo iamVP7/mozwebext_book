@@ -6,3 +6,4 @@ WebExtension_close.md
 WebExtension_PDFIT.md
 WebExtension_notifier.md
 WebExtension_youtube_commands.md
+WebExtension_sof_search.md
