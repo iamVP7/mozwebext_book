@@ -1,4 +1,5 @@
 {mainmatter}
+
 # Getting Started with Mozilla Webextensions
 
 During 2015  Firefox team has made an exciting very big announcement to Firefox add-ons, they have brought a new extension API's called WebExtension [1].  This update has a lot of exciting announcements for developers. 
