@@ -1,23 +1,24 @@
-# Experiment 6: Building our Shortcuts for Youtube Controller
+# Experiment 6: Building Shortcuts for Youtube Controller
 
-## Problem statement and Solution
+## Problem Statement and Solution
 
 *Problem Statement*
 
-Think of the busy working day. To relax you should be playing some of your favorite songs on youtube. And as you continue listening you will start browsing the internet. It is very easy to open so many tabs and it will become difficult to find the youtube tab which you opened long back. You may love to skip the song when some irritating song comes or you would like to switch between pause and play when someone comes and talks to you.
+Think of the busy working day. To relax you should be playing some of your favorite songs on Youtube. And as you continue listening you will start browsing the internet. It is very easy to open so many tabs and it will become difficult to find the Youtube tab which you opened long back. You may love to skip the song when some irritating song comes or you would like to switch between pause and play when someone comes and talks to you.
 
 *Solution*
 
-In such a case we should be quickly able to find the youtube tab and do the action. We can have two types to do this. 
+In such a case we should be quickly able to find the Youtube tab and do the action. There are two ways we can do this. 
 
-The first solution is we can have a small pop-up with different buttons like play/pause and next song.
+The first solution is to make a small pop-up with different buttons like play/pause and next song.
+
 The second solution is to make use of the shortcuts. Yes, we can build our own shortcuts in Firefox.
 
-In this tutorial, we will be learning about creating our own Shortcuts in WebExtensions.
+In this tutorial, we will learn how to creat our own shortcuts in an extension. 
 
 **How we can capture this**
 
-As our proposed solution is related to shortcuts we have a WebExtension API named commands [1] which we can use to build our own shortcuts for Firefox. And after creating shortcuts we have programmatically click the next song button or play/pause button on youtube. For achieving this we need to write some minimal script to click the buttons. After we write the script we have to execute them, to this in the Tabs API we have a special method called **executeScript()** [2], similarly, we also have for CSS named **insertCSS()** which we won't use as of now.
+As our proposed solution is related to shortcuts we have a WebExtension API named `commands` [1] which we can use to build our own shortcuts for Firefox. And after creating shortcuts we can programmatically click the next song button or play/pause button on Youtube. To achieve this we need to write some minimal script to click the buttons. After we write the script we have to execute them, to this in the Tabs API we have a special method called **executeScript()** [2], similarly, we also have for CSS named **insertCSS()** which we won't use as of now.
 
 ## Building Blocks of Our Youtube Controller Extension
 
@@ -35,7 +36,7 @@ Our very first task will be to define the shortcut which we are going to use for
 }
 ```
 
-Each and every command will have a name, in our example **next-song** is the name of the shortcut. Each command will have two properties *suggested_key* and *description*. **Description** is the just one line about this particular shortcut. And **suggested_key** will be having the set of shortcuts based on the operating system. List of keys which can be present in the suggested_key json is shared below. **default** is not specific to any platform it will be used in all platforms.
+Each and every command will have a name, in our example **next-song** is the name of the shortcut. Each command will have two properties *suggested_key* and *description*. **Description** is the just one line about this particular shortcut. And **suggested_key** will have the set of shortcuts based on the operating system. List of keys which can be present in the suggested_key json is shared below. **default** is not specific to any platform it will be used in all platforms.
 
 ```javascript
 "default", "mac", "linux", "windows", "chromeos", "android", "ios"
@@ -56,7 +57,7 @@ In our background script, we should be listening when our command is triggered. 
 
 ### Execute the Click Scripts
 
-So we have manually found out the button id in the youtube. It should be done before starting the development of extension. It is one time process only.
+So we have manually found out the button ID in the Youtube. It should be done before starting the development of extension. It is one time process only.
 
 ```javascript
 // Script for clicking the next button
@@ -66,7 +67,7 @@ document.querySelector(".ytp-next-button.ytp-button").click();
 document.querySelector(".ytp-play-button.ytp-button").click()
 ```
 
-The first part of executing the script is to find in which tab the *youtube* is running. To this, we have already using tabs.query API. We just need to change the value of the variable **url**
+The first part of executing the script is to find in which tab the *Youtube* is running. To this, we have already using `tabs.query` API. We just need to change the value of the variable **url**
 
 ```javascript
   var querying = browser.tabs.query({
@@ -89,7 +90,7 @@ Here the value of **commandToExecute** is the script which we have got earlier f
 
 ### manifest.json file
 
-So as usual we will be starting with our manifest.json file and will make the single script file.
+As usual, we will be starting with our manifest.json file and will make the single script file.
 
 ```javascript
 {
@@ -130,7 +131,7 @@ In this manifest.json in permission, we will be requiring the website permission
 
 And the newest part of manifest.json you will notice is the **commands** object. We will be defining what are the commands we will be using and what are their shortcuts and their description in manifest.json itself.
 
-### Our Background script file
+### Our Background Script File
 
 ```javascript
 var commandToExecute = '';
@@ -173,25 +174,25 @@ function onExecuted(result) {
 }
 ```
 
-So our background script file is well explanatory and is organized well. For learning quickly without checking the code sharing this.
+So our background script file is well explained and is organized well.
 
-First, we will be having a listener (**onCommand.addListener**) to listen when the shortcut is triggered. We have a callback function (**on_command_received**) for this listener. This callback function will be receiving the command as the argument.
+First, we will have a listener (**onCommand.addListener**) to listen when the shortcut is triggered. We have a callback function (**on_command_received**) for this listener. This callback function will be receiving the command as the argument.
 
-Then based on the command (either *next-song* or *pp-song*) we will be assigning the script which we need to execute. After that our process is to find the first youtube tab. Using the **tabs.query** the method we will be getting the **tabId** of first youtube tab. 
+Then based on the command (either *next-song* or *pp-song*) we will be assigning the script which we need to execute. After that our process is to find the first Youtube tab. Using the **tabs.query** the method we will be getting the **tabId** of first Youtube tab. 
 
-As we are having the required tabID and the script to execute we will be using **browser.tabs.executeScript** method to execute the script and make our necessary changes.
+As we have the required tab ID and the script to execute, we will be using **browser.tabs.executeScript** method to execute the script and make our necessary changes.
 
 Note: Since this extension is purely based on commands it is not possible to add the screenshot of UI.
 
 ## Exercise
 
-To learn More about Commands API [1] and tabs.Execute [2], visit MDN link given below.
+To learn more about Commands API [1] and tabs.Execute [2], visit the MDN link given below.
 
-We are having a small limitation on this. Our system will work when we are having only one youtube tab. But in the ideal world people used to have more than one youtube tabs. So instead of using the commands API, try to create the browserAction popup with the screenshot of the images. You can get the screenshot of the tab using **tabs.captureTab()** [3].
+We are having a small limitation on this. Our system will work when we have only one Youtube tab. But in the ideal world people can have more than one Youtube tabs. So instead of using the commands API, try to create the browserAction popup with the screenshot of the images. You can get the screenshot of the tab using **tabs.captureTab()** [3].
 
-Another exercise is, try to find out other amazing site likes this for listening to music. Replicate the same action for them. It will be one of the best Extension you can use and many will love to use them.
+You can also do this exercise for other music streaming sites. 
 
-Optional: It will be great if you can share your code or blog about this learning in twitter. Our Mozilla WebExtension twitter handle is (@MozWebExt) and make sure you use hashtag #WebExtLearn when you are tweeting about this learning. 
+Optional: It will be great if you can share your code or blog about this learning on Twitter. Make sure you use hashtag #WebExtLearn when you are tweeting about this activity. 
 
 
 ## References
