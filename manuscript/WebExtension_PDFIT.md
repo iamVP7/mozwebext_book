@@ -1,8 +1,8 @@
-# Experiment 4: Building our PDF WebPage Extension
+# Experiment 4: Building PDF WebPage Extension
 
 So we were learning about fetching the tabs Closing them one by one. There are times in our life where we need to do something later. Yes, we need to do a lot of things later. In this chapter we will be learning how to save so we can check it later. We learned more about browserAction icon previously now we will be learning opposite to it (not exactly just for fun) PageAction icon, we are seeing it in a lot of pages think of closing tab button, bookmark button, what they are doing ? what is their scope?
 
-## Problem statement and Solution
+## Problem Statement and Solution
 
 *Problem Statement*
 
@@ -211,14 +211,14 @@ When we click on the icon we will be getting the pop-up for saving the file as p
 
 To learn More about below list of API, visit MDN link given below.
 
-- onUpdate [1]
-- onActivate [2]
-- onCreate [3]
-- pageAction [4]
+- `onUpdate` [1]
+- `onActivate` [2]
+- `onCreate` [3]
+- `pageAction` [4]
 
 Your simple task is to create a small social share button. So when the user clicks on the pageAction icon he should have options to share it to various social media.
 
-Optional: It will be great if you can share your code or blog about this learning in twitter. Our Mozilla Webextension twitter handle is (@MozWebExt) and make sure you use hashtag #WebExtLearn when you are tweeting about this learning.
+Optional: It will be great if you can share your code or blog about this learning on Twitter. Make sure you use hashtag #WebExtLearn when you are tweeting about this activity.
 
 ## References
 

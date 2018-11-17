@@ -47,4 +47,4 @@ You have published your first WebExtension to AMO. With this, you can proudly an
 
 ## Exercise
 
-Publish one of the extension which you made during this journey. And  share your code or blog about this learning on twitter or any social. Our Mozilla Web extension twitter handle is (@MozWebExt) and make sure you use hashtag #WebExtLearn when you are tweeting about publishing your Extension.
+Publish one of the extension which you made during this journey. And  share your code or blog about this learning on twitter or any social. Make sure you use hashtag #WebExtLearn when you are tweeting about this activity.

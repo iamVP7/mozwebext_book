@@ -1,8 +1,8 @@
-# Experiment 2: Building our Power Search Add-on
+# Experiment 2: Building Power Search Add-on
 
 We got too many browser actions that can be used by developers via WebExtension API(Application Program Interface), we also built our first WebExtension with which we can get motivational images whenever we open a new tab.
 
-## Problem statement and Solution
+## Problem Statement and Solution
 
 *Problem Statement*
 
@@ -149,7 +149,7 @@ As the name suggests we will have something running in the background. Here we c
 
 **Note: In this program we wont be using any HTML pages, without even HTML page we can run the WebExtension**
 
-### Our Background script file
+### Our Background Script File
 
 In this experiment we are using only one background script namely background.js; we should have included this in manifest.json else we cant use it.
 
@@ -242,7 +242,7 @@ browser.search.search({
 
 ## Exercise
 
-To learn More about Search API [1] and ContextMenu API [2], visit MDN link given below.
+To learn More about `Search API` [1] and `ContextMenu API` [2], visit MDN link given below.
 
 Your simple task here to find out the various search engines (around 15-20). Make them listed in your ContextMenu. This task will involve you to understand the basic how the search Query params work.
 
@@ -255,7 +255,7 @@ In this, only the highlighted part will be changing every time. Likewise, find f
 
 You may also have to do some little parsing.
 
-Optional: It will be great if you can share your code or blog about this learning on twitter. Our Mozilla Web extension twitter handle is (@MozWebExt) and make sure you use hashtag #WebExtLearn when you are tweeting about this learning.
+Optional: It will be great if you can share your code or blog about this learning on Twitter. Make sure you use hashtag #WebExtLearn when you are tweeting about this activity.
 
 ## References
 

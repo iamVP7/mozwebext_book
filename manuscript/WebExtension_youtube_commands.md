@@ -192,7 +192,7 @@ We are having a small limitation on this. Our system will work when we have only
 
 You can also do this exercise for other music streaming sites. 
 
-Optional: It will be great if you can share your code or blog about this learning on Twitter. Make sure you use hashtag #WebExtLearn when you are tweeting about this activity. 
+Optional: It will be great if you can share your code or blog about this learning on Twitter. Make sure you use hashtag #WebExtLearn when you are tweeting about this activity.
 
 
 ## References

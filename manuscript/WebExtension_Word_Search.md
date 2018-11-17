@@ -1,6 +1,6 @@
-# Building our Multi Tab Words Searcher
+# Building Multi Tab Words Searcher
 
-## Problem statement and Solution
+## Problem Statement and Solution
 
 *Problem Statement*
 

@@ -1,8 +1,8 @@
-# Experiment 5: Building our Water Notifier Extension
+# Experiment 5: Building Water Notifier Extension
 
 Humans depend on a lot on the notification system. The simplest thing and more like a hello world program for WebExtension are building Notification system. I got started with sending the simple notification.
 
-## Problem statement and Solution
+## Problem Statement and Solution
 
 *Problem Statement*
 
@@ -16,9 +16,9 @@ So our solution is simple, have an alarm in our system so we will be sending the
 
 Our proposed system has clearly mentioned we need to have an alarm in our browser, and to show something in UI for that let's have a small Notification UI. We are having the following list of WebExtension API.
 
-- alarms API [1]
-- notifications API [2]
-- Runtime API [3]
+- `alarms API` [1]
+- `notifications API` [2]
+- `Runtime API` [3]
 
 In our system we need to set alarm for every 45 mins from the time we started our browser, so we need to find out when the browser is started so for that we need the help of **Runtime API**. This Extension is one of my favorites as I started learning WebExtension development with this.
 
@@ -80,7 +80,7 @@ browser.notifications.create(waterNotification, {
   });
 ```
 
-We will have the notification id at the place of **waterNotification**. As of now, Firefox is supporting only the basic type of notification. We can have a small **title** text and a descriptive **message** alone in our notification.
+We will have the notification ID at the place of **waterNotification**. As of now, Firefox is supporting only the basic type of notification. We can have a small **title** text and a descriptive **message** alone in our notification.
 
 Note in case we call notification creation more than once in rapid succession, Firefox may end up not displaying any notification at all.
 
@@ -147,7 +147,7 @@ function handleInstalled(details) {
 }
 ```
 
-This callback method will have installation details like id, previous version. Here also we are just moving to create the alarm method, no other action is done.
+This callback method will have installation details like ID, previous version. Here also we are just moving to create the alarm method, no other action is done.
 
 #### Create the alarm
 
@@ -193,13 +193,13 @@ Before installing the extension for testing bring the time to 1 min or 2 mins. A
 
 To learn More about below list of API, visit MDN link given below.
 
-- alarms API [1]
-- notifications API [2]
-- Runtime API [3]
+- `alarms API` [1]
+- `notifications API` [2]
+- `Runtime API` [3]
 
 Your simple task is to create a WebExtension which will have a pageAction icon, on click it we should make the article to be opened after 30 mins. This Extension will look like a simple version of Firefox Test pilot Snooze tab. In this, we will be using Open tab API, Alarms API, pageAction API.
 
-Optional: It will be great if you can share your code or blog about this learning in twitter. Our Mozilla Webextension twitter handle is (@MozWebExt) and make sure you use hashtag #WebExtLearn when you are tweeting about this learning.
+Optional: It will be great if you can share your code or blog about this learning on Twitter. Make sure you use hashtag #WebExtLearn when you are tweeting about this activity.
 
 ## References
 

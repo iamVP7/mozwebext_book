@@ -2,14 +2,14 @@
 
 # Getting Started with Mozilla Webextensions
 
-During 2015  Firefox team has made an exciting very big announcement to Firefox add-ons, they have brought a new extension API's called WebExtension [1].  This update has a lot of exciting announcements for developers. 
+During 2015  Firefox team has made an exciting very big announcement to Firefox add-ons, they have brought a new extension API's called `WebExtension` [1].  This update has a lot of exciting announcements for developers.
 
 1. The review process will become faster
 2. Development is easier, and the Addons will be compatible with Chrome and Opera.
 
-You can find the whole information regarding this update in Add-ons Blog [2]
+You can find the whole information regarding this update in `Add-ons Blog` [2]
 
-The next step is to download the Firefox Browser and install them. You can either go for developer Edition [3] or Nightly [4]
+The next step is to download the Firefox Browser and install them. You can either go for `developer Edition` [3] or `Nightly` [4]
 
 So as of now, Firefox Will allow only the add-ons which are signed when you start the browser. So for development purpose, we have to change the settings.
 

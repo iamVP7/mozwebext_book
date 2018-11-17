@@ -2,7 +2,7 @@
 
 In this section, we will be exploring more how to run a Firefox WebExtensions.
 
-I will be showing this demo with the help of the small extension I have written before, feel free to download it from GitHub [1], you can clone whole repo [2].  I personally use web-ext [3]  tool for packing my extension, but for basic learning, it is not mandatory.
+I will be showing this demo with the help of the small extension I have written before, feel free to download it from `GitHub` [1], you can clone whole `repo` [2].  I personally use `web-ext` [3]  tool for packing my extension, but for basic learning, it is not mandatory.
 
 ## Step by Step procedure for running WebExtension
 

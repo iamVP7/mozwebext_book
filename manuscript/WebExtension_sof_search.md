@@ -1,5 +1,7 @@
 # Experiment 7: Building Quick Stackoverflow searcher
 
+## Problem Statement and Solution
+
 *Problem Statement*
 
 You know very well the number of times you have been to StackOverflow for searching throughout this day. Won't it be great to have a quick searcher for the StackOverflow? In this experiment, we will be building a simple Extension where we can type the shortcut in the newtab and the text to be searched so we will be directly taken to the search page.
@@ -100,7 +102,7 @@ We have already discussed about the **omnibox** JSON, here is where we will be d
 
 The meaning of above code is this extension will work only if the browser is having the version greater than  *52.0a1*, this is very important. Some of the API's are introduced very late (after 57) or will be upcoming API's. We should make sure the user who is going to install our extension is having minimum the browser version from which our API is supported; so we can avoid the breakage in extension usage. Similarly, we are also having **strict_max_version** which will say the maximum version this extension will work. Generally, there was no much need for setting *strict_max_version* but we have to be careful when the major version of the browser is released.
 
-### Our Background script file
+### Our Background Script File
 
 Our Simple **background.js** file is shared below
 
@@ -140,13 +142,13 @@ From the response page we can checkout the various solutions and find the best o
 
 To learn More about below list of API, visit MDN link given below.
 
-- omnibox API [1]
-- Tab Update API [2]
-- SuggestResult API [3]
+- `omnibox API` [1]
+- `Tab Update API` [2]
+- `SuggestResult API` [3]
 
 Try to build your custom search engine, think of giving the generic keyword for activating Omnibox and then some text to search in some search engine, then finally search text. So with some combination of shortcuts, we can search in any search engine quickly. This exercise is slightly similar to the exercise what we had in our second experiment **Building our Power Search Add-on**, so its very easy and quick one.
 
-Optional: It will be great if you can share your code or blog about this learning in twitter. Our Mozilla Webextension twitter handle is (@MozWebExt) and make sure you use hashtag #WebExtLearn when you are tweeting about this learning.
+Optional: It will be great if you can share your code or blog about this learning on Twitter. Make sure you use hashtag #WebExtLearn when you are tweeting about this activity.
 
 ## References
 

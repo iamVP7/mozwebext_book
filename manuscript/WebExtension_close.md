@@ -1,8 +1,8 @@
-# Experiment 3: Building our Tabs Closer
+# Experiment 3: Building Tabs Closer
 
 We have seen previously how to search using different search engine available in our browsers. It should interesting and easy one right? Hope the exercise you tried might have made you find the URL of different search engines and what are all the extra information they are sending as request params.
 
-## Problem statement and Solution
+## Problem Statement and Solution
 
 *Problem Statement*
 
@@ -26,9 +26,9 @@ Another approach will be fetching all the opened websites, listing them one by o
 
 In this exercise, we will be learning the following list of API
 
-- Tabs.query (To fetch all tabs)
-- Tabs.remove (Close)
-- Tabs.move (To display the tab clicked)
+- tabs.query (To fetch all tabs)
+- tabs.remove (Close)
+- tabs.move (To display the tab clicked)
 - Browser Action Icon
 - Browser Action pop-up
 
@@ -50,7 +50,7 @@ browser.browserAction.onClicked.addListener(action_jump_function_name);
 
 #### Fetching the twitter tabs
 
-In this case, we will be knowing the website URL of Twitter, it is nothing but https://twitter.com/. So our first step will be to get all the tabs where Twitter is loaded. Our WebExtension *tabs.query* have a lot of combination to get(or fetch) the tabs loaded, in this case, we are going to fetch based on **URL**
+In this case, we will be knowing the website URL of Twitter, it is nothing but https://twitter.com/. So our first step will be to get all the tabs where Twitter is loaded. Our WebExtension `tabs.query` have a lot of combination to get(or fetch) the tabs loaded, in this case, we are going to fetch based on **URL**
 
 ```javascript
 browser.tabs.query({url: "*://*.twitter.com/*"});
@@ -234,7 +234,7 @@ Our HTML page is having some CSS for design and most important part is the div w
 
 And we have also included the Javascript file at the end. This same JS file will be acting as a background script file.
 
-#### Included JS and Background JS
+#### Included JS and Background Script File
 
 Our first action once the javascript file is loaded is to collect all the tabs which are opened. We are processing this action in **startFetchingTabs** method
 
@@ -299,15 +299,15 @@ As discussed before, once the title is clicked, the respective id is passed and 
 
 Make sure to visit Mozilla Developer Network (MDN) to learn more about the above API.
 
-- Close API [1]
-- Query API [2]
-- Capture Tab [3]
-- Reload Tab [4]
-- Browser Action [5]
+- `Close API` [1]
+- `Query API` [2]
+- `Capture Tab` [3]
+- `Reload Tab` [4]
+- `Browser Action` [5]
 
 There are a lot of things related to tabs API to be explored. We have as of now have used the title and showed the list of tabs. But sometimes Title alone won't be enough, we have an API to capture the current instance of the tab as an image, use this API instead of the title make sure to show the image and on the image have two options one for reloading and another for close. So based on the button clicks use Reload API or Remove API.
 
-Optional: It will be great if you can share your code or blog about this learning in twitter. Our Mozilla Webextension twitter handle is (@MozWebExt) and make sure you use hashtag #WebExtLearn when you are tweeting about this learning.
+Optional: It will be great if you can share your code or blog about this learning on Twitter. Make sure you use hashtag #WebExtLearn when you are tweeting about this activity.
 
 ## References
 

@@ -1,10 +1,10 @@
-# Experiment 1: Building our Motivational Tab
+# Experiment 1: Building Motivational Tab
 
 We got to know what is meant by WebExtension and how to install WebExtension from the source code available in our system. Those lessons are very important to us, as we move forward with our development, we will be always using them.
 
 Our Approach is to learn the basic code, try them out with little modification and run them in our system, try out the exercise and share about this learning in the social medium of community benefit.
 
-## Problem statement and Solution
+## Problem Statement and Solution
 
 *Problem Statement*
 
@@ -117,13 +117,12 @@ That's it, our extension (WebExtension or Add-on) is ready, once we do the tempo
 
 ## Exercise
 
-Make sure to visit Mozilla Developer Network (MDN) [1] to learn more about the above API.
+Make sure to visit `Mozilla Developer Network (MDN)` [1] to learn more about the above API.
 
 So try out this API in your get started a program. Your task is simple you have to load beautiful images whenever a user opens a new tab. We have already done opening Beautiful Quotes, instead of words you make it an image. Remembers visuals have more power compared to basic text words.
 
-Optional: It will be great if you can share your code or blog about this learning on twitter. Our Mozilla Web extension twitter handle is (@MozWebExt) and make sure you use hashtag #WebExtLearn when you are tweeting about this learning.
+Optional: It will be great if you can share your code or blog about this learning on Twitter. Make sure you use hashtag #WebExtLearn when you are tweeting about this activity.
 
 ## References
 
 - [1] https://mzl.la/2PBUToi
-- [2] https://twitter.com/MozWebExt 
